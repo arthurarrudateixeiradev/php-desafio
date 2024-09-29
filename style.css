@@ -1,0 +1,146 @@
+/* @Forms */
+
+#login-form {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 1px;
+    border-radius: 6px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #071020;
+}
+
+.form-style input {
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 220px;
+}
+
+.form-style .label-form {
+    color: #ffffff;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-style button {
+    cursor: pointer;
+    background-color: #ffff;
+    font-weight: 600;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.form-style button:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.form-style button:active {
+    background-color: rgb(177, 177, 177);
+}
+
+
+/* ------------------------ */
+
+/* @Dashboard */
+
+#dashboard-page {
+    min-height: 100vh;
+}
+
+#side-divided {
+    display: flex;
+}
+
+#side-divided aside {
+    padding-top: 40px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: 100vh;
+    color: #ffff;
+    gap: 10px;
+    background-color: #071020;
+}
+
+#side-divided aside a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: end;
+}
+
+#navbar span {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* ------------------------ */
+
+/* @Clientes */
+
+#content #main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #main-content #client-list .client-list-header {
+    border: #000000 solid 2px;
+    border-radius: 3px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+
+#content #main-content #client-list .client-list-header .title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#content #main-content #client-list .client-list-header .btn {
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 400;
+    background-color: rgb(10, 142, 230);
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
